@@ -1,0 +1,7 @@
+divide = range(1500,2700)
+for x in divide:
+    if x%5 == 0 and x%7 == 0:
+        print(x)
+    else:
+        pass
+    
