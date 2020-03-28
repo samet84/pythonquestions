@@ -1,0 +1,10 @@
+numbers = (1, 2, 2, 7, 8, 10, 12)
+count_odd = 0
+count_even = 0
+for x in numbers:
+    if x%2 == 0:
+        count_even+=1
+    else:
+        count_odd+=1
+print('number of evens:',count_even)
+print('number of odds:',count_odd)
