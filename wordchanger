@@ -1,0 +1,7 @@
+def wordchanger(word):
+    firstletter = word[0]
+    if firstletter in 'aeiou':
+        pigword = word + 'ay'
+    else:
+        pigword = word[1:] + firstletter +'ay'
+    return pigword
